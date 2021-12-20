@@ -28,8 +28,8 @@
     "extends": "react-app"
   },
   "engines": {
-    "npm": ">=7.20.0",
-    "node": ">=16.13.1"
+    "npm": "7.20.0",
+    "node": "16.13.1"
   },
   "browserslist": {
     "production": [
