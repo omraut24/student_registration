@@ -3,6 +3,7 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "@heroku/buildpack-registry": "^1.0.1",
     "@testing-library/jest-dom": "^5.16.1",
     "@testing-library/react": "^9.3.2",
     "@testing-library/user-event": "^7.1.2",
@@ -28,7 +29,7 @@
     "extends": "react-app"
   },
   "engines": {
-    "npm": "7.20.0",
+    "npm": "8.3.0",
     "node": "16.13.1"
   },
   "browserslist": {
