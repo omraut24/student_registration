@@ -29,8 +29,6 @@ const Navbar = () => {
             <li><Link className="btn btn-outline-light" to="/users/add">Add Student</Link></li>       
           </ul>
         </div>
-
-        
       </div>
     </nav>
   );

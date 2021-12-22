@@ -33,33 +33,33 @@ const Home = () => {
               <th scope="col">Branch</th>
               <th>Action</th>
             </tr>
-            <tr>
-              <th scope="col">1</th>
+            {/* <tr> */}
+              {/* <th scope="col">1</th>
               <th scope="col">Omkar raut</th>
               <th scope="col">omkarraut2412@gmail.com</th>
               <th scope="col">8433830474</th>
-              <th scope="col">IT</th>
+              <th scope="col">IT</th> */}
               {/* <th>Action</th> */}
-              <td>
+              {/* <td>
                   <Link class="btn btn-primary mr-2" 
-                  // to={`/users/${user.id}`}
+                  to={`/users/${user.id}`}
                   >
                     View
                   </Link>
                   <Link
                     class="btn btn-outline-primary mr-2"
-                    // to={`/users/edit/${user.id}`}
+                    to={`/users/edit/${user.id}`}
                   >
                     Update
                   </Link>
                   <Link
                     class="btn btn-danger"
-                    // onClick={() => deleteUser(user.id)}
+                    onClick={() => deleteUser(user.id)}
                   >
                     Delete
                   </Link>
-                </td>
-            </tr>
+                </td> */}
+            {/* </tr> */}
           </thead>
           <tbody>
             {users.map((user, index) => (
